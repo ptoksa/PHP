@@ -1,0 +1,168 @@
+/* General styles */
+body {
+    background-color: #f3f6f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Page headings */
+h1 {
+    font-size: 2em;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"],
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0055b3;
+}
+
+/* Links styling */
+a {
+    color: #003366;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling the User Index table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action links in the User Index */
+.action-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-links a {
+    margin-right: 10px;
+}
+
+.action-links a.edit {
+    color: #28a745; /* Green for Edit */
+}
+
+.action-links a.delete {
+    color: #dc3545; /* Red for Delete */
+}
+
+/* Styling "Create new", "Save", "Delete", and "Back to list" buttons */
+.create-new,
+.btn-save,
+.btn-delete,
+.back-to-list {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-new:hover,
+.btn-save:hover,
+.btn-delete:hover,
+.back-to-list:hover {
+    background-color: #0055b3;
+}
+
+/* Specific colors for Save and Delete */
+.btn-save {
+    background-color: #28a745; /* Green */
+}
+
+.btn-save:hover {
+    background-color: #218838;
+}
+
+.btn-delete {
+    background-color: #dc3545; /* Red */
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+/* Additional styling for "Back to list" */
+.back-to-list {
+    background-color: transparent;
+    color: #0055b3;
+    font-size: 14px;
+    margin-top: 15px !important;
+}
+
+.back-to-list:hover {
+    background-color: transparent;
+    color: #003366;
+    text-decoration: underline;
+}
